@@ -8,7 +8,7 @@ let listaDeMediasEAlunos = [alunos, mediasAlunos];
 
 function exibeNomeEMedia(nomeDoAluno) {
     if (listaDeMediasEAlunos[0].includes(nomeDoAluno)) {
-        indice = listaDeMediasEAlunos[0].indexOf(nomeDoAluno);
+        let indice = listaDeMediasEAlunos[0].indexOf(nomeDoAluno);
         console.log(`${nomeDoAluno}, sua média é ${listaDeMediasEAlunos[1][indice]}`);
     } else {
         console.log(`O aluno não está na lista.`);
