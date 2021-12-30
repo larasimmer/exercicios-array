@@ -1,5 +1,3 @@
-//Desafio - Cálculo de médias
-
 //Dividir uma lista de alunos em duas listas
 
 const nomesAlunos = ["João", "Juliana", "Ana", "Caio", "Lara", "Marjorie", "Guilherme", "Aline", "Fabiana", "Andre", "Carlos", "Paulo", "Bia", "Vivian", 
