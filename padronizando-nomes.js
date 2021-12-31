@@ -2,6 +2,6 @@
 
 const nomes = ["ana Julia", "Caio vinicius", "BIA silva"];
 
-const notasAtualizadas = notas.map(nota => nota == 10 ? nota : ++nota);
+const nomesAtualizados = nomes.map(nome => nome.toUpperCase());
 
-console.log(`As notas atualizadas são ${notasAtualizadas}.`);
+console.log(nomesAtualizados);
